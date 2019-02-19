@@ -1,3 +1,4 @@
+/* Used flexbox methd to center */
 html{
     box-sizing: border-box;
     display: flex;
@@ -5,11 +6,11 @@ html{
     justify-content: center;
     text-align: center;
 }
-
+/* removes blue outline */
 *{
     outline: none;
 }
-
+/* makes the div look like a circle */
 .circle{
     height: 500px;
     width: 500px;
@@ -18,7 +19,7 @@ html{
     text-align: center;
     color: white;
 }
-
+/* add style to button */
 button{
     margin-top: 5%;
     height: 50px;
@@ -30,12 +31,12 @@ button{
     text-align: center;
     font-weight: bold;
 }
-
+/* make button change color on hover */
 button:hover{
     background: white;
     color: black;
 }
-
+/* centers text in the circle */
 .Text{
     position: relative;
     padding-top: 40%;
